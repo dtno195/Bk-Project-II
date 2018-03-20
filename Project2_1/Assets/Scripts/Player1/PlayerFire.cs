@@ -43,6 +43,7 @@ public class PlayerFire : MonoBehaviour
             }
 
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+            
             Destroy(impactGO, 0.5f);
         }
     }
