@@ -15,6 +15,7 @@ public class SpawnBot : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
+        spawnPoints = GameObject.FindGameObjectsWithTag("");
 		UpdateSpawnTime();
 	}
 
