@@ -241,6 +241,8 @@
      <Compile Include="Assets\Item\Snow Package\Demo\ExtendedFlycam.cs" />
      <Compile Include="Assets\Item\Snow Package\atsV3 UnityTerrainSnow Package\Scripts\CustomTerrainScriptAtsV3Snow.cs" />
      <Compile Include="Assets\Scenes\Player\MovePlayer.cs" />
+     <Compile Include="Assets\Scripts\CaculateDistance.cs" />
+     <Compile Include="Assets\Scripts\Coin.cs" />
      <Compile Include="Assets\Scripts\Player1\BotNav.cs" />
      <Compile Include="Assets\Scripts\Player1\CarTarget.cs" />
      <Compile Include="Assets\Scripts\Player1\PlayerController.cs" />
@@ -248,6 +250,8 @@
      <Compile Include="Assets\Scripts\Player1\RolateGun.cs" />
      <Compile Include="Assets\Scripts\Player1\SpawnBot.cs" />
      <Compile Include="Assets\Scripts\Player2\P2Controller.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\ShowMap.cs" />
      <None Include="Assets\Item\Plugins\BulletUnity\Native\OSX\libbulletc.bundle\Contents\Resources\CMakeLists.txt" />
      <None Include="Assets\smcs.rsp" />
      <None Include="Assets\Item\Snow Package\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Includes\atsWavingGrass vertexAlpha.cginc" />
@@ -255,6 +259,7 @@
      <None Include="Assets\Item\Snow Package\atsV3 UnityTerrainSnow Package\Shaders\Terrain\atsV3WavingGrassBillboardSnow.shader" />
      <None Include="Assets\Item\Models\Car\Porsche_911_GT2.txt" />
      <None Include="Assets\Item\Snow Package\atsV3 UnityTerrainSnow Package\Shaders\Terrain\atsV3WavingGrassSnow vertexAlpha.shader" />
+     <None Include="Assets\Simple_Town\Materials\2_sided.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Item\Snow Package\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorLeavesOptimizedSnow.shader" />
      <None Include="Assets\Item\Snow Package\atsV3 UnityTerrainSnow Package\Shaders\Trees\Tree.cginc" />
@@ -267,7 +272,7 @@
      <None Include="Assets\Item\Snow Package\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorBarkOptimizedSnow.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/Duc/Desktop/project_II/Project2_1/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/Duc/Desktop/PP/project_II/Project2_1/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Study/Unity/Client1/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

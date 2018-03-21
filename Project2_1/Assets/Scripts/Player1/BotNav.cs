@@ -14,7 +14,7 @@ public class BotNav : MonoBehaviour {
 
     void Start()
     {
-        thisObject = GameObject.FindGameObjectWithTag("Target").transform;
+       
         target= GameObject.FindGameObjectsWithTag("Parking")[Random.Range(0,GameObject.FindGameObjectsWithTag("Parking").Length)].transform;
         navComponent = this.gameObject.GetComponent<NavMeshAgent>();
     }

@@ -47,6 +47,8 @@ public class PlayerController : MonoBehaviour
             InSmoke();
             if (hit.transform.tag.Equals("Target"))
             {
+                Score.score += 20;
+                Coin.coinV+= 10;
                 Destroy(hit.transform.gameObject);
             }
         }
