@@ -15,6 +15,10 @@ public class SpawnBot : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
+<<<<<<< HEAD
+=======
+     
+>>>>>>> f066e8baabf905e0a9b9f1a9f06007bf603a2262
 		UpdateSpawnTime();
 	}
 

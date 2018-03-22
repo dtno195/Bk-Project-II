@@ -6,7 +6,11 @@ TagManager:
   tags:
   - Target
   - Parking
+<<<<<<< HEAD
   - ShowMap
+=======
+  - Score
+>>>>>>> f066e8baabf905e0a9b9f1a9f06007bf603a2262
   layers:
   - Default
   - TransparentFX
